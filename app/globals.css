@@ -80,3 +80,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.custom-checkout-btn {
+    background-color: #0052ff !important;
+}

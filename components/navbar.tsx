@@ -85,14 +85,6 @@ const Navbar = () => {
             <Moon className="absolute h-6 w-6 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
             <span className="sr-only">Toggle theme</span>
           </Button>
-          <Button variant="ghost" size="icon" className="mr-2">
-            <Link href="/cart">
-              <ShoppingCart className="h-6 w-6" />
-            </Link>
-          </Button>
-          <Button asChild className="ml-4">
-            <Link href="/login">Login</Link>
-          </Button>
         </div>
       </div>
     </header>
@@ -100,3 +92,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
